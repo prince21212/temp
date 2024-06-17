@@ -10,6 +10,7 @@
       background-position: center;
       background-size: cover;
       position: relative;
+      opacity: 0.8;
 } 
 h1{
     color: brown;
@@ -26,10 +27,9 @@ h1{
 
 /* navigation and form stylesheet */
 nav {
-    
-    background-color: #ed1515;
     text-align: left;  
     color:black;  
+    justify-content: center;
   }
   
   nav a {
@@ -48,10 +48,10 @@ nav {
   
   nav a:hover {
     text-align: center;
-    background-color: #e81313;
     color: black;
+    
   }
-
+ 
 
 
   nav ul {
@@ -67,4 +67,54 @@ nav {
     left: 55px;
 
 }
+ .fcontainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  font-size: medium;
+  font-weight: bold;
+}
+
+/* .apply{
+  position: absolute;
+    top: 1px; /* Adjust the top position as needed */
+    right: 1px; /* Adjust the right position as needed */
+    padding: 10px 20px; Adjust padding for button size */
+    font-size: 16px; /* Adjust font size */
+    background-color: #ef0c0c; /* Button background color */
+    /* color: white; Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; 
+    cursor: pointer; 
+} */
+
+/* quotes */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 105vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.quote-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote::before,.quote::after {
+  content: ;
+  height:2px;
+  display:block;  
+}
+.bold_para{
+  font-weight: bold;
+  font-size: xx-large;
+  color:white;
+  margin-bottom: 100px;
+}
+
 
