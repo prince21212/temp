@@ -1,4 +1,5 @@
 /* CSS (in style.css file) */
+/* course offered section css part */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -66,3 +67,4 @@ h1{
 .enroll-btn:hover {
   background-color: #8e7b3e;
 }
+/*course offered page styling end */
