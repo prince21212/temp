@@ -11,24 +11,24 @@ h1{
 
 .course {
   width: 100%;
-  margin: 1.25rem auto; /* converted to rem */
+  margin: 1.25rem auto; 
   text-align: center;
   background-color: #fff;
-  padding: 1.25rem; /* converted to rem */
-  border-radius: 10px; /* kept in px */
+  padding: 1.25rem; 
+  border-radius: 10px; 
 }
 
 .heading {
-  font-size: 2.25rem; /* converted to rem */
+  font-size: 2.25rem; 
   font-weight: bold;
-  margin-bottom: 1.25rem; /* converted to rem */
+  margin-bottom: 1.25rem; 
   color: #333;
 }
 
 .course-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* changed to auto-fill and minmax */
-  grid-gap: 1.25rem; /* converted to rem */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 1.25rem; 
 }
 
 .courseimage-container {
