@@ -1,120 +1,67 @@
-*{
-    margin: 0;
-    padding: 0;
-}
- .header{ 
-      min-height: 100vh;
-      width: 100%;
-      background-image: 
-        url("clgbg.jpg");
-      background-position: center;
-      background-size: cover;
-      position: relative;
-      opacity: 0.8;
-} 
-h1{
-    color: brown;
-    background-position: center;
-    justify-content: center;
-}
-.corner-image {
-    position:absolute ;
-    top: 2px;
-    left: 2px;
-    width: 250px; /* Adjust the size as needed */
-    height: auto; /* Maintain aspect ratio */
-}
-
-/* navigation and form stylesheet */
-nav {
-    text-align: left;  
-    color:black;  
-    justify-content: center;
-  }
-  
-  nav a {
-    height :auto;
-    color: black;
-    float: right;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-decoration-color: #ed1515;
-    
-
-  }
-  
-  nav a:hover {
-    text-align: center;
-    color: black;
-    
-  }
- 
-
-
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-.bt{
-    background-color: white;
-    color:black;
-    position: absolute;
-    left: 55px;
-
-}
- .fcontainer{
-  display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
-  font-size: medium;
-  font-weight: bold;
-}
-
-/* .apply{
-  position: absolute;
-    top: 1px; /* Adjust the top position as needed */
-    right: 1px; /* Adjust the right position as needed */
-    padding: 10px 20px; Adjust padding for button size */
-    font-size: 16px; /* Adjust font size */
-    background-color: #ef0c0c; /* Button background color */
-    /* color: white; Button text color */
-    border: none; /* Remove button border */
-    border-radius: 5px; 
-    cursor: pointer; 
-} */
-
-/* quotes */
+/* CSS (in style.css file) */
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 105vh;
-  margin: 0;
-  background-color: #f0f0f0;
-}
-
-.quote-container {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.quote::before,.quote::after {
-  content: ;
-  height:2px;
-  display:block;  
-}
-.bold_para{
-  font-weight: bold;
-  font-size: xx-large;
-  color:white;
-  margin-bottom: 100px;
-}
-
-
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%; 
+    margin: 20px auto; 
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .enroll-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .enroll-btn:hover {
+    background-color: #3e8e41;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
