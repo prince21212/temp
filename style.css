@@ -15,9 +15,14 @@ body, html {
 .chairman-image {
     position: relative;
     display: inline-block;
-    
+    width: 20rem; 
+    height: 20rem; 
+    border-radius: 50%; 
+    object-fit: cover; 
 }
-.chairman-image:before{
+    
+
+.chairman-image:before{ 
 content: "Special Effect";
   position: absolute;
   top: 50%;
@@ -36,5 +41,5 @@ content: "Special Effect";
     font-weight: bold;
     text-align: center;
     margin: 40px;
-    background-color: rgb(198, 243, 243);
+    background-color: rgb(238, 115, 115);
 } 
